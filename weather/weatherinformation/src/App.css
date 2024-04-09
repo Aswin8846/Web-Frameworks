@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.weather, .forecast {
+  margin-top: 20px;
+}
+
+.forecast-list {
+  display: flex;
+  justify-content: center;
+}
+
+.forecast-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
